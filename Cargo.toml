@@ -1,0 +1,9 @@
+[package]
+name = "gpuiex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#gpui = { git = "https://github.com/stormtracks/zed.git", branch = "webview" }
+#gpui = { git = "https://github.com/stormasm/gpuionly.git" }
+gpui = { path = "/Users/ma/j/tmp10/gpuionly-250419/crates/gpui" }
