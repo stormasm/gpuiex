@@ -841,7 +841,6 @@ dependencies = [
 [[package]]
 name = "collections"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "indexmap",
  "rustc-hash 2.1.1",
@@ -1170,7 +1169,6 @@ dependencies = [
 [[package]]
 name = "derive_refineable"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1882,7 +1880,6 @@ dependencies = [
 [[package]]
 name = "gpui"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "anyhow",
  "as-raw-xcb-connection",
@@ -1974,7 +1971,6 @@ dependencies = [
 [[package]]
 name = "gpui_macros"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2096,7 +2092,6 @@ dependencies = [
 [[package]]
 name = "http_client"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "anyhow",
  "bytes",
@@ -2670,7 +2665,6 @@ dependencies = [
 [[package]]
 name = "media"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "anyhow",
  "bindgen",
@@ -3712,7 +3706,6 @@ dependencies = [
 [[package]]
 name = "refineable"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "derive_refineable",
  "workspace-hack",
@@ -4010,7 +4003,6 @@ checksum = "0f7d95a54511e0c7be3f51e8867aa8cf35148d7b9445d44de2f943e2b206e749"
 [[package]]
 name = "semantic_version"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "anyhow",
  "serde",
@@ -4121,9 +4113,9 @@ checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
 name = "signal-hook-registry"
-version = "1.4.3"
+version = "1.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c28b4eafe8a2d82f83559ef5941afff1ccba3da8e375c8f148efd75df181bf4f"
+checksum = "a1ee1aca2bc74ef9589efa7ccaa0f3752751399940356209b3fd80c078149b5e"
 dependencies = [
  "libc",
 ]
@@ -4291,7 +4283,6 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 [[package]]
 name = "sum_tree"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "arrayvec",
  "log",
@@ -4913,7 +4904,6 @@ checksum = "06abde3611657adf66d383f00b093d7faecc7fa57071cce2578660c9f1010821"
 [[package]]
 name = "util"
 version = "0.1.0"
-source = "git+https://github.com/stormasm/gpuionly-250419.git#1b4ab214ebf5d54986963b0b2d9c5600a4648506"
 dependencies = [
  "anyhow",
  "async-fs",
