@@ -4,8 +4,17 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+#
+#  This appears to be broken, in other words the branch concept is broken for some reason
+#
 #gpui = { git = "https://github.com/stormasm/gpuionly-250409.git", branch = "bp1" }
+#
+#  This works
+#
 #gpui = { git = "https://github.com/stormasm/gpuionly-250419.git" }
-#gpui = { git = "https://github.com/stormasm/gpuionly-250419ex.git" }
-gpui = { path = "/Users/ma/j/tmp10/gpuionly-250419ex/crates/gpui" }
 #gpui = { path = "/Users/ma/j/tmp10/gpuionly-250419/crates/gpui" }
+#
+#  This also works because I busted this out into its own repo
+#
+gpui = { git = "https://github.com/stormasm/gpuionly-250419ex.git" }
+#gpui = { path = "/Users/ma/j/tmp10/gpuionly-250419ex/crates/gpui" }
